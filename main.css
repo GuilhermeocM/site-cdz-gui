@@ -1,0 +1,81 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.navbar{
+    background-color: #0b0c22;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #0b0c22;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #fff;
+}
+
+.section-title{
+    font-family: "Skranji", system-ui;
+}
+
+#sagaClassica, #hades{
+    background-color: #e0e0e0;
+}
+
+#sobre-o-anime, #poseidon{
+    background-color: #0b0c22;
+    color: #fff;
+}
+
+.text-colored{
+    color: #4017d4;
+}
+
+.nav-poseidon .nav-link{
+    color: #fff;
+}
+
+.nav-poseidon .nav-link.active{
+    background-color: #fff;
+    color: #0b0c22;
+}
+
+.nav-poseidon .nav-link.active:hover{
+    color: #0b0c22;
+}
+
+.nav-hades .nav-link.active{
+    background-color: #0b0c22;
+    color: #fff;
+}
+
+.nav-hades .nav-link{
+    color: #0b0c22;
+}
+
+#fale-conosco button{
+    background-color: #4017d4;
+    color: #fff;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+@media (max-width: 767px){
+    .carousel-item img{
+        height: 280px;
+    }
+}
